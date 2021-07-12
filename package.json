@@ -1,9 +1,9 @@
 {
     "name": "axios-adapter-middle",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
-    "main": "index.js",
-    "module": "index.mjs",
+    "main": "dist/commonjs/index.js",
+    "module": "dist/es6/index.js",
     "scripts": {
         "build": "npm run build:commodjs & npm run build:es6",
         "build:commodjs": "tsc --module commonjs --outDir ./dist/commonjs/",
